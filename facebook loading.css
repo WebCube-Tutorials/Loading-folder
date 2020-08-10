@@ -1,0 +1,45 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+body {
+  width: 100%;
+  height: 100vh;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #dcd6f7;
+}
+.facebook-loading{
+  text-align: center;
+}
+.facebook-loading i{
+  font-size: 30px;
+  margin-bottom: 5px;
+  color: #0000EE;
+}
+.facebook-loading .loading-ber span{
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: #fff;
+}
+.facebook-loading .loading-ber span:nth-child(1){
+  animation: span-one 1s  infinite;
+}
+.facebook-loading .loading-ber span:nth-child(2){
+  animation: span-two 1s  infinite;
+}
+.facebook-loading .loading-ber span:nth-child(3){
+  animation: span-three 1s  infinite;
+}
+.facebook-loading .loading-ber span:nth-child(4){
+  animation: span-four 1s  infinite;
+}
+.facebook-loading .loading-ber span:nth-child(5){
+  animation: span-five 1s  infinite;
+}
